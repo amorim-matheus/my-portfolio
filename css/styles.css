@@ -1,0 +1,100 @@
+body, html {
+    height: 100%;
+}
+
+header {
+    height:100%;
+}
+
+hr.sep-after-screen {
+    margin: 0;
+    color: black;
+    height: 2px;
+    opacity: .5;
+}
+
+hr.sep-after-screen:not([size]) {
+    height:2px;
+}
+
+div.masthead {
+    /* Choose background image */
+    background-image: url("../assets/wallpaper.jpg");
+  
+
+    /* Full height */
+    height: 100%;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    /* Add the blur effect */
+    filter: blur(2px);
+    -webkit-filter: blur(2px);
+    
+}
+
+* {
+    box-sizing: border-box;
+}
+
+/* Position text in the middle of the page/image */
+.masthead-subheading {
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0, 0.6); /* Black w/opacity/see-through */
+    color: white;
+    font-weight: bold;
+    border: 3px solid #f1f1f1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 80%;
+    padding: 3rem 0;
+    text-align: center;
+}
+
+#mainNav {
+    background-color: rgba(0,0,0, 0.8); /* Black w/opacity/see-through */
+}
+
+.scroll-btn {
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 0.8rem;
+    position: absolute;
+    bottom: 3rem;
+    left: calc(50% - 1.25rem);
+    -webkit-animation: float 2s linear infinite;
+    animation: float 2s linear infinite;
+    -webkit-animation-direction: alternate;
+    animation-direction: alternate;
+    z-index: 2;
+}
+
+@-webkit-keyframes float {
+    0% {
+      -webkit-transform: translateY(0.5rem);
+      transform: translateY(0.5rem);
+    }
+    100% {
+      -webkit-transform: none;
+      transform: none;
+    }
+}
+
+/* .fa-angle-double-down:before {
+    content: "\f103";
+} */
