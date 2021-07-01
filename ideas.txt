@@ -1,8 +1,8 @@
 Portfolio and contact style from https://www.yan-holtz.com/
 
 Home
- - Personal Details & Areas of interest from Harrison + footer from https://binnie869.github.io/ or https://www.yan-holtz.com/
- - Put an arrow to indicate more things going down (file:///C:/Users/amori/OneDrive/Pessoal/Cursos/Intro%20to%20CS%20Harvard/Final%20Project/Templates/screen-2/distribution/index.html)
+ - Adjust background, shadow and size of navigation bar when scroll down
+ - Footer from https://binnie869.github.io/ or https://www.yan-holtz.com/
 
 About - combine 
  - file:///C:/Users/amori/OneDrive/Pessoal/Cursos/Intro%20to%20CS%20Harvard/Final%20Project/Templates/startbootstrap-resume-gh-pages/startbootstrap-resume-gh-pages/index.html#about

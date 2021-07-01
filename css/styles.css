@@ -95,6 +95,37 @@ div.masthead {
     }
 }
 
-/* .fa-angle-double-down:before {
-    content: "\f103";
-} */
+section.home-personal {
+    padding: 8vh 0;
+}
+
+p.home-details {
+    padding-left: calc(var(--bs-gutter-x) * 1.5);
+    padding-right: calc(var(--bs-gutter-x) * 1.5);
+    padding-top: 4vh;
+    font-size:120%;
+}
+
+p.second {
+    padding-top: 1vh;
+}
+
+a.about-btn {
+    width: auto;
+    margin-left: calc(var(--bs-gutter-x) * 1.5); 
+    margin-top: 1vh;
+    padding-left:1vw;
+    padding-right:1vw;
+    font-size:110%;
+}
+
+hr.sep-after-intro {
+    margin: 0;
+    color: black;
+    height: 1px;
+    opacity: .5;
+}
+
+hr.sep-after-intro:not([size]) {
+    height: 1px;
+}
