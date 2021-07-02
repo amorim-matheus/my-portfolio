@@ -1,7 +1,8 @@
 Portfolio and contact style from https://www.yan-holtz.com/
 
 Home
- - Adjust background, shadow and size of navigation bar when scroll down
+ - Adjust background, shadow and size (font and div) of navigation bar when scroll down
+ - Areas of interest from Jason
  - Footer from https://binnie869.github.io/ or https://www.yan-holtz.com/
 
 About - combine 
