@@ -19,7 +19,7 @@ header {
 
 hr.sep-after-screen {
     margin: 0;
-    color: black;
+    color: rgba(0, 0, 0, 0.5);
     height: 2px;
     opacity: .5;
 }
@@ -145,11 +145,36 @@ a.about-btn {
 
 hr.sep-after-intro {
     margin: 0;
-    color: black;
+    color: rgba(0, 0, 0, 0.3);
     height: 1px;
     opacity: .5;
 }
 
 hr.sep-after-intro:not([size]) {
     height: 1px;
+}
+
+section.home-expertise {
+    padding: 8vh 0;
+}
+
+.exp-item {
+    max-width: 26rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.exp-hover {
+    display: flex;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.5);
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.2s ease-in-out;
+}
+
+.exp-hover:hover {
+    opacity: 1;
+    cursor: default;
 }
