@@ -1,7 +1,7 @@
 Portfolio and contact style from https://www.yan-holtz.com/
 
 Home
- - Areas of interest from Jason
+ - Areas of interest from Agency (format) and Holtz (content)
  - Footer from https://binnie869.github.io/ or https://www.yan-holtz.com/
 
 About - combine 
