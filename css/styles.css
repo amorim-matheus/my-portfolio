@@ -159,22 +159,42 @@ section.home-expertise {
 }
 
 .exp-item {
-    max-width: 26rem;
+    height: 18rem;
+    width:100%;
     margin-left: auto;
     margin-right: auto;
+    background-color: #999999;
+    position: relative;
+    display: flex; 
+    align-items: center;
+    justify-content: center;
 }
 
 .exp-hover {
-    display: flex;
     position: absolute;
-    background: rgba(0, 0, 0, 0.5);
+    height: inherit;
+    width: 100%;
+    display: flex; 
     align-items: center;
     justify-content: center;
+    background: rgba(0, 0, 0, 0.6);
+    color:#ffffff;
     opacity: 0;
     transition: opacity 0.2s ease-in-out;
+    margin: auto;
 }
 
 .exp-hover:hover {
     opacity: 1;
     cursor: default;
+}
+
+#expertise-title {
+    margin-bottom:5vh;
+}
+
+@media (max-width: 576px) {
+    .exp-item {
+        height:9rem;
+    }
 }
