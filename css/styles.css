@@ -163,7 +163,6 @@ section.home-expertise {
     width:100%;
     margin-left: auto;
     margin-right: auto;
-    background-color: #999999;
     position: relative;
     display: flex; 
     align-items: center;
@@ -177,7 +176,9 @@ section.home-expertise {
     display: flex; 
     align-items: center;
     justify-content: center;
-    background: rgba(0, 0, 0, 0.6);
+    flex-wrap: wrap;
+    align-content: center;
+    background: rgba(11, 44, 151, 0.95);
     color:#ffffff;
     opacity: 0;
     transition: opacity 0.2s ease-in-out;
@@ -197,4 +198,45 @@ section.home-expertise {
     .exp-item {
         height:9rem;
     }
+}
+
+#data-mgmt-exp {
+    background-image: url("../assets/data_gathering_and_management.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#data-analysis-exp {
+    background-image: url("../assets/data_analysis_background.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.line-break {
+    width: inherit;
+    height: 1vh;
+}
+
+#dash-exp {
+    background-image: url("../assets/dashboard.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#ml-exp {
+    background-image: url("../assets/predictive_modelling.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.title-exp {
+    text-align: center;
+}
+
+.desc-exp {
+    text-align: center;
 }
