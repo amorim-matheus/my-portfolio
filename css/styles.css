@@ -178,7 +178,7 @@ section.home-expertise {
     justify-content: center;
     flex-wrap: wrap;
     align-content: center;
-    background: rgba(11, 44, 151, 0.95);
+    background: rgba(29, 48, 112, 0.975);
     color:#ffffff;
     opacity: 0;
     transition: opacity 0.2s ease-in-out;
@@ -194,9 +194,29 @@ section.home-expertise {
     margin-bottom:5vh;
 }
 
-@media (max-width: 576px) {
+.exp-list, .exp-p {
+    margin: 0 2vw;
+}
+
+@media (max-width: 768px) {
     .exp-item {
         height:9rem;
+    }
+    .exp-list {
+        display: none;
+    }
+    .exp-p {
+        display: block;
+        text-align: center;
+    }
+}
+
+@media (min-width: 769px) {
+    .exp-p {
+        display: none;
+    }
+    .exp-list {
+        display: block;
     }
 }
 
