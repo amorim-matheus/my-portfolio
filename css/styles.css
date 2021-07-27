@@ -155,7 +155,7 @@ hr.sep-after-intro:not([size]) {
 }
 
 section.home-expertise {
-    padding: 8vh 0;
+    padding: 8vh 0 3vh 0;
 }
 
 .exp-item {
@@ -259,4 +259,14 @@ section.home-expertise {
 
 .desc-exp {
     text-align: center;
+}
+
+.footer-icon {
+    text-align: center;
+    display: flex !important;
+    flex-wrap: wrap !important;
+    flex: 0 0 auto !important;
+    width: 33.333333333333% !important;
+    align-items: center !important;
+    justify-content: center !important;
 }
