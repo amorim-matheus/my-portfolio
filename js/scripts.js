@@ -18,22 +18,6 @@ if (getWidth() < 1000) {
 }
 */
 
-// Add transition on navbar items font size
-
-// Get all links from navbar
-let navbarlinks = document.getElementsByClassName("nav-link");
-
-// Get the current transiction on those elements, to not overwrite, but append to it
-var elem, style;
-elem = document.querySelector('.nav-link');
-style = getComputedStyle(elem);
-transitionOriginal = style.transition;
-
-// go into all elements and append to each the original transition plus the one related to font size
-for (e of navbarlinks) {
-  e.style.transition = transitionOriginal + ", font-size 0s ease-in-out 0s";
-}
-
 // Function to shrink the size of the navbar when user scrolls downs
 
 // Define which function to call when window is scrolled
