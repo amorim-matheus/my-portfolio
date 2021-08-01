@@ -58,4 +58,3 @@ function scrollFunction(){
 
   updatenvabar();
 }
-
